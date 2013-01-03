@@ -1,1 +1,1 @@
-Multiple Rebecca Murphey's srchr application implementation using alternative javascript MVC frameworks.
+Implementing Rebecca Murphey's srchr single-page javascript application using multiple javascript MVC frameworks.
