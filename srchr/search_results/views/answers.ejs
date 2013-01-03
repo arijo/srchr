@@ -1,0 +1,11 @@
+<% for(var i=0; i<results.length; i++) {
+	var r = results[i]; %>
+
+<div class="search_result answer">
+	<div class="info">
+		<div class="text"><span class="question">Question:</span><%= r.Content %></div>
+		<div class="text"><span class="answer">Answer:</span><%= r.ChosenAnswer %></div>
+	</div>
+</div>
+
+<% } %>

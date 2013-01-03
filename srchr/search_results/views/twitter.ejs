@@ -1,0 +1,14 @@
+<% for(var i=0; i<results.length; i++) {
+	var r = results[i]; %>
+
+<div class='search_result clearfix'>
+	<div class='avatar'>
+		<img src='<%= r.profile_image_url %>'/>
+	</div>
+	<div class='info'>
+		<div class='from_user'><%= r.from_user %></div>
+		<div class='text'><%= r.text %></div>
+	</div>
+</div>
+
+<% } %>
