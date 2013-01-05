@@ -1,0 +1,272 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 17, ../sass/_srchr.scss */
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+}
+
+/* line 25, ../sass/_srchr.scss */
+body {
+  margin: 0;
+  font-family: tahoma, arial, verdana, sans-serif;
+}
+/* line 28, ../sass/_srchr.scss */
+body h1.placeholder {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* line 33, ../sass/_srchr.scss */
+#srchr_application {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* line 39, ../sass/_srchr.scss */
+#srchr_application .search_bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  border: 1px solid #3ba3d0;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$startColor, endColorstr=$endColor);
+  /* for IE */
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #024a68), color-stop(100%, #0772a1));
+  background-image: -webkit-linear-gradient(#024a68, #0772a1);
+  background-image: -moz-linear-gradient(#024a68, #0772a1);
+  background-image: -o-linear-gradient(#024a68, #0772a1);
+  background-image: linear-gradient(#024a68, #0772a1);
+}
+/* line 47, ../sass/_srchr.scss */
+#srchr_application .search_bar .search_form {
+  margin: 20px 0 0 0;
+}
+/* line 49, ../sass/_srchr.scss */
+#srchr_application .search_bar .search_form label {
+  margin-left: 20px;
+  color: #fff;
+}
+/* line 53, ../sass/_srchr.scss */
+#srchr_application .search_bar .search_form #query {
+  width: 200px;
+  padding: 2px;
+  border: 1px solid #333333;
+}
+/* line 58, ../sass/_srchr.scss */
+#srchr_application .search_bar .search_form button {
+  cursor: pointer;
+}
+/* line 61, ../sass/_srchr.scss */
+#srchr_application .search_bar .search_form #twitter, #srchr_application .search_bar .search_form #answers {
+  margin-left: 10px;
+}
+/* line 66, ../sass/_srchr.scss */
+#srchr_application .container {
+  position: absolute;
+  top: 61px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #3ba3d0;
+}
+/* line 73, ../sass/_srchr.scss */
+#srchr_application .container .history {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 320px;
+  border-right: 1px solid #3ba3d0;
+}
+/* line 80, ../sass/_srchr.scss */
+#srchr_application .container .history .search {
+  height: 25px;
+  padding: 10px 0 0 20px;
+  border-bottom: 1px solid #333333;
+  cursor: pointer;
+}
+/* line 85, ../sass/_srchr.scss */
+#srchr_application .container .history .search .query {
+  font-weight: bold;
+}
+/* line 88, ../sass/_srchr.scss */
+#srchr_application .container .history .search .remove {
+  cursor: pointer;
+}
+/* line 91, ../sass/_srchr.scss */
+#srchr_application .container .history .search.hover {
+  background-color: #ffc;
+}
+/* line 96, ../sass/_srchr.scss */
+#srchr_application .container .search_results {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 321px;
+}
+/* line 102, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* line 108, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .tabs {
+  clear: both;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #333333;
+}
+/* line 114, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .tabs .tab {
+  float: left;
+  list-style-type: none;
+  margin: 8px 1px 0 0;
+  padding: 5px 10px 0 10px;
+  border-top: 1px solid #333333;
+  border-right: 1px solid #333333;
+  border-left: 1px solid #333333;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$startColor, endColorstr=$endColor);
+  /* for IE */
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #024a68), color-stop(100%, #0772a1));
+  background-image: -webkit-linear-gradient(#024a68, #0772a1);
+  background-image: -moz-linear-gradient(#024a68, #0772a1);
+  background-image: -o-linear-gradient(#024a68, #0772a1);
+  background-image: linear-gradient(#024a68, #0772a1);
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+/* line 124, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .tabs .tab.current {
+  background-image: none;
+  border-bottom: 1px solid white;
+}
+/* line 125, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .tabs .tab.current a {
+  color: #333;
+}
+/* line 131, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .tabs .tab a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 137, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .panel {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+/* line 144, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .panel .search_result {
+  padding: 15px 0 0 5px;
+  border-bottom: 1px solid #333333;
+}
+/* line 147, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .panel .search_result .avatar {
+  float: left;
+  margin: 0 5px 0 0;
+}
+/* line 151, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .panel .search_result .info {
+  float: left;
+}
+/* line 153, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .panel .search_result .info .text {
+  max-width: 960px;
+  padding: 2px;
+}
+/* line 159, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .panel .search_result.answer .info {
+  float: none;
+}
+/* line 163, ../sass/_srchr.scss */
+#srchr_application .container .search_results .tabs_wrapper .panel .search_result.answer .info .text .question,
+#srchr_application .container .search_results .tabs_wrapper .panel .search_result.answer .info .text .answer {
+  font-weight: bold;
+}

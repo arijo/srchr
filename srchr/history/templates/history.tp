@@ -1,0 +1,10 @@
+<% for(var i=0; i<searches.length; i++) { 
+	var s = searches[i]; %>
+
+	<div class='search' data-id='<%= s.get('id') %>'>
+		<span class='query'><%= s.get('query') %></span> 
+		(<span class='service'><%= s.get('service') %></span>)
+		<span class='remove'>X</span>
+	</div>
+
+<% } %>
