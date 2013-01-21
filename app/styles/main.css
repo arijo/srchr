@@ -1,1 +1,235 @@
-/* Will be compiled down to a single stylesheet with your sass files */
+/* line 17, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../var/lib/gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../../app/styles/_srchr.scss */
+h1.placeholder {
+  font-size: 1.4em;
+  padding: 10px;
+}
+
+/* line 6, ../../app/styles/_srchr.scss */
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+/* line 14, ../../app/styles/_srchr.scss */
+.container .search-bar {
+  height: 60px;
+  background-color: #ccc;
+  border-bottom: 1px solid #aaaaaa;
+}
+/* line 18, ../../app/styles/_srchr.scss */
+.container .search-bar .search-box {
+  padding: 18px;
+}
+/* line 20, ../../app/styles/_srchr.scss */
+.container .search-bar .search-box input {
+  border: 1px solid #aaaaaa;
+}
+/* line 25, ../../app/styles/_srchr.scss */
+.container .search-container {
+  position: absolute;
+  top: 61px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+/* line 31, ../../app/styles/_srchr.scss */
+.container .search-container .history {
+  width: 320px;
+  height: 100%;
+  border-right: 1px solid #aaaaaa;
+}
+/* line 36, ../../app/styles/_srchr.scss */
+.container .search-container .history .searches .search {
+  padding: 10px;
+  border-bottom: 1px solid #999999;
+  cursor: pointer;
+}
+/* line 40, ../../app/styles/_srchr.scss */
+.container .search-container .history .searches .search .service {
+  font-weight: bold;
+}
+/* line 43, ../../app/styles/_srchr.scss */
+.container .search-container .history .searches .search .remove {
+  display: inline-block;
+  margin: 0 0 0 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* line 49, ../../app/styles/_srchr.scss */
+.container .search-container .history .searches .search.hover {
+  background-color: #ffc;
+}
+/* line 55, ../../app/styles/_srchr.scss */
+.container .search-container tabs {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 321px;
+}
+/* line 61, ../../app/styles/_srchr.scss */
+.container .search-container tabs ul {
+  list-style: none;
+  height: 20px;
+  border-bottom: 1px solid #999999;
+}
+/* line 65, ../../app/styles/_srchr.scss */
+.container .search-container tabs ul li.tab {
+  float: left;
+  height: 100%;
+  margin: 0 0 0 2px;
+  padding: 0 5px;
+  border-top: 1px solid #999999;
+  border-right: 1px solid #999999;
+  border-left: 1px solid #999999;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ccc;
+  cursor: pointer;
+}
+/* line 77, ../../app/styles/_srchr.scss */
+.container .search-container tabs ul li.tab.current {
+  font-weight: normal;
+  color: #000;
+  background-color: #fff;
+}
+/* line 85, ../../app/styles/_srchr.scss */
+.container .search-container tabs .twitter,
+.container .search-container tabs .answers {
+  position: absolute;
+  top: 21px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+/* line 92, ../../app/styles/_srchr.scss */
+.container .search-container tabs .twitter .results,
+.container .search-container tabs .answers .results {
+  border-bottom: none;
+}
+/* line 98, ../../app/styles/_srchr.scss */
+.container .search-container tabs .twitter .results .result {
+  position: relative;
+  height: 80px;
+  border-bottom: 1px solid #999999;
+}
+/* line 102, ../../app/styles/_srchr.scss */
+.container .search-container tabs .twitter .results .result .avatar {
+  position: absolute;
+  top: 5px;
+  width: 64px;
+  bottom: 5px;
+  left: 5px;
+  border: 1px solid #999999;
+}
+/* line 110, ../../app/styles/_srchr.scss */
+.container .search-container tabs .twitter .results .result .info {
+  position: absolute;
+  top: 5px;
+  left: 80px;
+  bottom: 5px;
+  right: 5px;
+}
+/* line 116, ../../app/styles/_srchr.scss */
+.container .search-container tabs .twitter .results .result .info .user-info {
+  margin: 0 0 5px 0;
+}
+/* line 118, ../../app/styles/_srchr.scss */
+.container .search-container tabs .twitter .results .result .info .user-info .user-name {
+  display: inline-block;
+  margin: 0 0 0 1px;
+  font-weight: bold;
+}
+/* line 123, ../../app/styles/_srchr.scss */
+.container .search-container tabs .twitter .results .result .info .user-info .user {
+  display: inline-block;
+  margin: 0 0 0 1px;
+  color: #999;
+}
+/* line 129, ../../app/styles/_srchr.scss */
+.container .search-container tabs .twitter .results .result .info .text {
+  margin: 2px 0 0 0;
+}
+/* line 138, ../../app/styles/_srchr.scss */
+.container .search-container tabs .answers .results .result {
+  padding: 5px;
+  border-bottom: 1px solid #999999;
+}
+/* line 142, ../../app/styles/_srchr.scss */
+.container .search-container tabs .answers .results .result .info .question, .container .search-container tabs .answers .results .result .info .answer {
+  padding: 2px 0 2px 0;
+}
+/* line 144, ../../app/styles/_srchr.scss */
+.container .search-container tabs .answers .results .result .info .question label, .container .search-container tabs .answers .results .result .info .answer label {
+  font-weight: bold;
+}
