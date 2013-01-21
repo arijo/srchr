@@ -1,0 +1,14 @@
+<div class="main" ng-controller="MainCtrl">
+	<div class="search-bar" ng-include="'views/search_bar.html'"></div>
+	<div class="search-container">
+		<div class="history" ng-include="'views/history.html'"></div>
+		<tabs cur-tab="{{curTab}}">
+			<ul>
+				<li class="tab" data-tab-id="twitter">Twitter</li>
+				<li class="tab" data-tab-id="answers">Answers</li>
+			</ul>
+			<div class="panel twitter" ng-include="'views/search_results/twitter.html'"></div>
+			<div class="panel answers" ng-include="'views/search_results/answers.html'"></div>
+		</tabs>
+	</div>
+</div>

@@ -1,0 +1,11 @@
+<div ng-controller="SearchBarCtrl">
+	<div class="search-box">
+		<label for="query">Query</label>
+		<input id="query" ng-model="search.query">
+		<button ng-click="performSearch()">Search</button>
+		<label for="twitter">Twitter</label>
+		<input id="twitter" type="radio" name="service" ng-model="search.service" value="twitter" checked>
+		<label for="answers">Answers</label>
+		<input id="answers" type="radio" name="service" ng-model="search.service" value="answers">
+	</div>
+</div>

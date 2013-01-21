@@ -1,0 +1,13 @@
+<div ng-controller="HistoryCtrl">
+	<ul class="searches">
+		<li class="search" ng-repeat="search in searches"
+				   ng-click="select(search)" 
+				   ng-mouseenter="hover=true" 
+				   ng-mouseleave="hover=false" 
+				   ng-class="{hover: hover}">
+			<span class="query">{{ search.query }}</span>
+			(<span class="service">{{ search.service }}</span>)
+			<span class="remove" ng-click="remove(search)">X</span>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,16 @@
+<div ng-controller="AnswersSearchResultsCtrl">
+	<ul class="results">
+		<li class="result" ng-repeat="result in results">
+			<div class="info">
+				<div class="question">
+					<label>Question:</label>
+					<span class="text">{{ result.Content }}</span>
+				</div>
+				<div class="answer">
+					<label class="answer">Answer:</label>
+					<span class="text">{{ result.ChosenAnswer }}</span>
+				</div>
+			</div>
+		</li>	
+	</ul>
+</div>

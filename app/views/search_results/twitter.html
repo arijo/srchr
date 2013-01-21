@@ -1,0 +1,14 @@
+<div ng-controller="TwitterSearchResultsCtrl">
+	<ul class="results">
+		<li class="result" ng-repeat="result in results">
+			<img class="avatar" ng-src="{{ result.profile_image_url }}">
+			<div class="info">
+				<div class="user-info">
+					<span class="user-name">{{ result.from_user_name }}</span>
+					<span class="user">@{{ result.from_user }}</span>
+				</div>
+				<div class="text">{{ result.text }}</div>
+			</div>
+		</li>	
+	</ul>
+</div>
