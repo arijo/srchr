@@ -1,0 +1,158 @@
+h1.placeholder {
+	font-size: 1.4em;
+	padding: 10px;
+}
+
+.container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	.search-bar {
+		height: 60px;
+		background-color: #ccc;
+		border-bottom: 1px solid #aaa;
+		.search-box {
+			padding: 18px;
+			input {
+				border: 1px solid #aaa;
+			}
+		}
+	}
+	.search-container {
+		position: absolute;
+		top: 61px;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		.history {
+			width: 320px;
+			height: 100%;
+			border-right: 1px solid #aaa;
+			.searches {
+				.search {
+					padding: 10px;
+					border-bottom: 1px solid #999;
+					cursor: pointer;
+					.service {
+						font-weight: bold;
+					}
+					.remove {
+						display: inline-block;
+						margin: 0 0 0 5px;
+						font-weight: bold;
+						cursor: pointer;
+					}
+					&.hover {
+						background-color: #ffc;
+					}
+				}
+			}
+		}
+		tabs {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 321px;
+			ul {
+				list-style: none;
+				height: 20px;
+				border-bottom: 1px solid #999;
+				li.tab {
+					float: left;
+					height: 100%;
+					margin:0 0 0 2px;
+					padding: 0 5px;
+					border-top: 1px solid #999;
+					border-right: 1px solid #999;
+					border-left: 1px solid #999;
+					font-weight: bold;
+					color: #fff;
+					background-color: #ccc;
+					cursor: pointer;
+					&.current {
+						font-weight: normal;
+						color: #000;
+						background-color: #fff;
+					}
+				}
+			}
+			.twitter, 
+			.answers {
+				position: absolute;
+				top: 21px;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				overflow: auto;
+				.results {
+					border-bottom: none;
+				}
+			}
+			.twitter {
+				.results {
+					.result {
+						position: relative;
+						height: 80px;
+						border-bottom: 1px solid #999;
+						.avatar {
+							position: absolute;
+							top: 5px;
+							width: 64px;
+							bottom: 5px;
+							left: 5px;
+							border: 1px solid #999;
+						}
+						.info {
+							position: absolute;
+							top: 5px;
+							left: 80px;
+							bottom: 5px;
+							right: 5px;
+							.user-info {
+								margin: 0 0 5px 0;
+								.user-name {
+									display: inline-block;
+									margin: 0 0 0 1px;
+									font-weight: bold;
+								}
+								.user {
+									display: inline-block;
+									margin: 0 0 0 1px;
+									color: #999;
+								}
+							}
+							.text {
+								margin: 2px 0 0 0;
+							}
+						}
+					}
+				}
+			}
+			.answers {
+				.results {
+					.result {
+						padding: 5px;
+						border-bottom: 1px solid #999;
+						.info {
+							.question, .answer {
+								padding: 2px 0 2px 0;
+								label {
+									font-weight: bold;
+								}
+								.text {
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
