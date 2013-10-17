@@ -12,4 +12,7 @@ git checkout extjs
 ##### JavascriptMVC implementation:
 git checkout javascriptmvc
 
+##### Knockout.js implementation:
+git checkout knockout
+
 ### See http://firmamento.org/blog 
