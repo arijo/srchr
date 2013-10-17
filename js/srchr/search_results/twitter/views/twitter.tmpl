@@ -1,0 +1,9 @@
+<div class="results" data-bind="foreach: searchResults">
+   <div class="result clearfix">
+        <div class="profile_image"><img data-bind="attr: { src: user.profile_image_url } "></div>
+        <div class="info">
+            <div class="username"><strong data-bind="text: user.name"></strong></div>
+            <div class="text" data-bind="text: text"></div>
+        </div>
+   </div>
+</div>

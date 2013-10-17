@@ -1,0 +1,8 @@
+<ul class="searches" data-bind="foreach: searches">
+    <li class="search" data-bind="click: $root.search">
+        <span class="query" data-bind="text: query"></span>
+        <span class="sep">|</span>
+        <span class="service" data-bind="text: service"></span>
+        <span class="remove" data-bind="click: $parent.remove">X</span>
+    </li>
+</ul>

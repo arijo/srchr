@@ -1,0 +1,30 @@
+<div class="header">
+    <!-- ko stopBinding: true -->
+    <div class="search_bar"></div>
+    <!-- /ko -->
+</div>
+<div class="content">
+    <!-- ko stopBinding: true -->
+    <div class="history"></div>
+    <!-- /ko -->
+    <!-- ko stopBinding: true -->
+    <div class="search_results_container">
+        <div class="tabs_container">
+            <ul class="tabs clearfix">
+                <li class="tab" data-bind="css: { selected: twitterVisible }"><a href="#twitter" data-bind="click: showTwitterPanel">Twitter</a></li>
+                <li class="tab" data-bind="css: { selected: answersVisible }"><a href="#answers" data-bind="click: showAnswersPanel">Answers</a></li>
+            </ul>
+            <div class="twitter service" data-bind="visible: twitterVisible">
+                <!-- ko stopBinding: true -->
+                <div class="search_results">TWITTER SEARCH RESULTS PLACEHOLDER</div>
+                <!-- /ko -->
+            </div>
+            <div class="answers service" data-bind="visible: answersVisible">
+                <!-- ko stopBinding: true -->
+                <div class="search_results">ANSWERS SEARCH RESULTS PLACEHOLDER</div>
+                <!-- /ko -->
+            </div>
+        </div>
+    </div>
+    <!-- /ko -->
+</div>
